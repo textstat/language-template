@@ -1,0 +1,14 @@
+text = """
+This is an example text
+"""
+
+[meta]
+title = "Some title"
+author = "Some author"
+source = "https://example.org/"
+
+[statistics]
+words = 100
+letters = 100
+characters = 100
+sentences = 100
