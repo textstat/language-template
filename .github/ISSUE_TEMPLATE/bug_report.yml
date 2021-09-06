@@ -11,7 +11,7 @@ body:
   id: operating-system
   attributes:
     label: Operating system
-    description: "On what operating system are you trying to use Textstat? _Other? Answer below_"
+    description: "On what operating system are you trying to use Textstat? _[Other?](#issue_form_other)_"
     options:
       - Linux
       - Windows
@@ -24,7 +24,7 @@ body:
   id: download
   attributes:
     label: Download source
-    description: "Where to did you download/install Textstat from? _Other? Answer below_"
+    description: "Where to did you download/install Textstat from? _[Other?](#issue_form_other)_"
     options:
       - PyPi
       - GitHub clone
@@ -37,7 +37,7 @@ body:
   id: python-distribution
   attributes:
     label: Python distribution
-    description: "What Python distribution are you running. Standard [Python is CPython](https://stackoverflow.com/questions/17130975/python-vs-cpython). _Other? Answer below_"
+    description: "What Python distribution are you running. (Standard [Python](https://www.python.org/) is CPython). _[Other?](#issue_form_other)_"
     options:
       - CPython
       - Anaconda
